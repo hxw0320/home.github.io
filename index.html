@@ -13,8 +13,18 @@
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/dmego-home-page@latest/assets/css/onlinewebfonts.css"/>
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/dmego-home-page@latest/assets/css/vno.css">
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/dmego-home-page@latest/assets/css/iconfont.css">
-    <link rel="apple-touch-icon" href="https://unpkg.com/dmego-home-page@latest/apple-touch-icon.png">
-    <link rel="icon" href="https://unpkg.com/dmego-home-page@latest/favicon.ico">
+    <link rel="apple-touch-icon" href="https://lsky.pcly.org/uploads/2025/01/02/6775e8e03444b.png">
+    <link rel="icon" href="https://lsky.pcly.org/uploads/2025/01/10/6780d5198aec4.ico">
+    <style>
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+            cursor: pointer; /* 鼠标样式变为手型 */
+        }
+    </style>
 </head>
 
 <body>
@@ -28,13 +38,11 @@
                 <div class="panel-main__content">
                     <div class="ih-item circle effect right_to_left">            
                         <a href="#" title="" class="blog-button">
-                            <div class="img"><img src="https://unpkg.com/dmego-home-page@latest/assets/img/logo3.jpg" alt="img" class="js-avatar iUp profilepic"></div>
+                            <div class="img"><img src="https://lsky.pcly.org/uploads/2025/01/02/6775e8e03444b.png" alt="img" class="js-avatar iUp profilepic"></div>
                             <div class="info iUp">
                                 <div class="info-back">
                                     <h2> 
-                                        
-                                            Wonderful Life
-                                        
+                                            Hello
                                     </h2>
                                     <p>
                                         
@@ -46,9 +54,9 @@
                         </a>
                     </div>
                     <h1 class="panel-cover__title panel-title iUp">
-                        <a href="#" title="Dmego Home">pcly</a>
+                        <a href="#" title="Dmego Home">Haoxiang Wang</a>
                     </h1>
-                    <p class="panel-cover__subtitle panel-subtitle iUp">Code Create Life</p>
+                    <p class="panel-cover__subtitle panel-subtitle iUp">Life is beautiful, Code is wonderful.</p>
                     <hr class="panel-cover__divider iUp" />
                     <p id="description" class="panel-cover__description iUp">如何得与凉风约, 不共尘沙一并来!
                         <br/>
@@ -74,30 +82,43 @@
                             <nav class="cover-navigation navigation--social">
                                 <ul class="navigation">
                                     <li class="navigation__item">
-                                        <a href="https://github.com/hxw0320/" title="github" target="_blank">
-                                            <i class='social iconfont icon-github'></i>
-                                            <span class="label">github</span>
-                                        </a>
+                                        <a href="https://github.com/hxw0320/" target="_blank" title="github">
+                                            <svg class="icon" aria-hidden="true">
+                                              <use xlink:href="#icon-github-fill">github</use>
+                                            </svg>
+                                          </a>
                                     </li>
-                                    <!-- <li class="navigation__item">
-                                        <a href="http://www.cnblogs.com/dmego/" title="cnblogs" target="_blank">
-                                            <i class='social iconfont icon-cnblogs'></i>
-                                            <span class="label">cnblogs</span>
-                                        </a>
-                                    </li> -->
+                                    <li class="navigation__item">
+                                        <a href="https://space.bilibili.com/29628101" target="_blank" title="bilibili">
+                                            <svg class="icon" aria-hidden="true">
+                                              <use xlink:href="#icon-bilibili-fill">bilibili</use>
+                                            </svg>
+                                          </a>
+                                    </li>
 
                                     <li class="navigation__item">
-                                        <a href="https://www.zhihu.com/people/dmego/" title="zhihu" target="_blank">
-                                            <i class='social iconfont icon-zhihu'></i>
-                                            <span class="label">zhihu</span>
-                                        </a>
+                                        <a href="https://res.abeim.cn/api/qq/?qq=765218957" target="_blank" title="QQ">
+                                            <svg class="icon" aria-hidden="true">
+                                              <use xlink:href="#icon-qq-fill">qq</use>
+                                            </svg>
+                                          </a>
                                     </li>
+
+                                    <li class="navigation__item">
+                                        <a href="https://discord.gg/zXtxweUk2a" target="_blank" title="discord">
+                                            <svg class="icon" aria-hidden="true">
+                                              <use xlink:href="#icon-discord-fill">discord</use>
+                                            </svg>
+                                          </a>
+                                    </li>
+
                                     <li class="navigation__item">
                                         <!-- 加密的邮箱地址, 请自行修改, 或者改用下方的明文方式 -->
                                         <!-- <a href="javascript:decryptEmail('ZG1lYWdvQGdtYWlsLmNvbQ==');" title="email"> -->
                                         <a href="mailto:emali-me@pcly.org" title="email">
-                                            <i class='social iconfont icon-email'></i>
-                                            <span class="label">email</span>
+                                            <svg class="icon" aria-hidden="true">
+                                                <use xlink:href="#icon-email-fill">email</use>
+                                              </svg>
                                         </a>
                                     </li>
                                 </ul>
@@ -121,5 +142,6 @@
     </header>
     <script type="text/javascript" src="https://unpkg.com/dmego-home-page@latest/assets/js/main.js"></script>
     <script type="text/javascript" src="./assets/json/images.json?cb=getBingImages"></script>
+    <script src="./assets/js/iconfont.js"></script>
 </body>
 </html>

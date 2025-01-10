@@ -1,0 +1,79 @@
+{
+  "id": "4808134",
+  "name": "home",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "16034362",
+      "name": "bilibili-line",
+      "font_class": "bilibili-line",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "16034365",
+      "name": "discord-line",
+      "font_class": "discord-line",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "16034373",
+      "name": "bilibili-fill",
+      "font_class": "bilibili-fill",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "16034376",
+      "name": "discord-fill",
+      "font_class": "discord-fill",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "16034389",
+      "name": "github-fill",
+      "font_class": "github-fill",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "16034392",
+      "name": "github-line",
+      "font_class": "github-line",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "16034427",
+      "name": "qq-fill",
+      "font_class": "qq-fill",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "16034439",
+      "name": "qq-line",
+      "font_class": "qq-line",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "34453204",
+      "name": "email-fill",
+      "font_class": "email-fill",
+      "unicode": "e856",
+      "unicode_decimal": 59478
+    },
+    {
+      "icon_id": "37069509",
+      "name": "email-line",
+      "font_class": "email-line",
+      "unicode": "e6d6",
+      "unicode_decimal": 59094
+    }
+  ]
+}
